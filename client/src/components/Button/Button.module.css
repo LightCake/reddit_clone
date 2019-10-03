@@ -1,0 +1,23 @@
+.button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.grey {
+  background: var(--grey);
+  border: none;
+}
+
+.black {
+  background: var(--lighter_black);
+  color: var(--grey);
+  border: 1px solid var(--grey);
+}

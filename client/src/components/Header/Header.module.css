@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.125rem;
+  background: var(--lighter_black);
+  padding: 0 1.3rem;
+}
+
+.logo {
+  color: white;
+}
+
+.group {
+  display: flex;
+}
+
+.group > *:not(:last-child) {
+  margin-right: 0.5rem;
+}

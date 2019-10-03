@@ -1,3 +1,33 @@
-.app {
-  text-align: center;
+:root {
+  --black: #030303;
+  --light_black: #161616;
+  --lighter_black: #1b1b1b;
+  --darker_grey: #272729;
+  --advanced_grey: #343536;
+  --middle_grey: #818284;
+  --dark_grey: #818384;
+  --grey: #d7dadc;
+  --lighter_grey: #cccccc;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+.app,
+.app > div {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }

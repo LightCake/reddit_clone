@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+}
+
+.button {
+  padding: 0.3rem 0.5rem;
+  background: var(--lighter_black);
+  border: none;
+  color: var(--middle_grey);
+  border: 1px solid var(--lighter_black);
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.button:hover {
+  border: 1px solid var(--advanced_grey);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.user_icon {
+  margin-right: 0.5rem;
+}
